@@ -3,9 +3,9 @@
 Notre projet vise à développer un **Tic-Tac-Toe** (ou **Morpion**) en utilisant **React** pour l'interface utilisateur et **Zustand** pour la gestion de l'état.
 ## Présentation REACT/ZUSTAND
 
-    1. REACT : React est une bibliothèque JavaScript open-source développée par Facebook, destinée à la création d'interfaces utilisateur dynamiques et performantes. Lancée en 2013, elle s'est imposée comme un pilier du développement web moderne grâce à son architecture modulaire, sa grande flexibilité et une communauté engagée.
+1. REACT : React est une bibliothèque JavaScript open-source développée par Facebook, destinée à la création d'interfaces utilisateur dynamiques et performantes. Lancée en 2013, elle s'est imposée comme un pilier du développement web moderne grâce à son architecture modulaire, sa grande flexibilité et une communauté engagée.
 
-    2. ZUSTAND : Une **bibliothèque légère** pour gérer l'état global en **React**, alternative à Redux ou au Context API. Elle utilise des stores pour centraliser et simplifier la gestion d'état.
+2. ZUSTAND : Une **bibliothèque légère** pour gérer l'état global en **React**, alternative à Redux ou au Context API. Elle utilise des stores pour centraliser et simplifier la gestion d'état.
 
 ---
 ## Présentation de l'équpe
