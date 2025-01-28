@@ -23,6 +23,7 @@ Notre projet vise à développer un **Tic-Tac-Toe** (ou **Morpion**) en utilisan
 2. Bouton de réinitialisation
 3. Verrouiller les cases déjà utilisées
 4. Indiquer le nom du joueur actuel
+5. Affichage les scores
 
 ---
 # Démonstration
