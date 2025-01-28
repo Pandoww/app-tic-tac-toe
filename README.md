@@ -19,10 +19,11 @@ Notre projet vise à développer un **Tic-Tac-Toe** (ou **Morpion**) en utilisan
 
 ## Liste des features
 
-1. Jouer a 2
-2. Bouton réinitialiser
-3. Bloquer les cases déja utiliser
-4. Afficher le nom de la personne qui dois jouer.
+1. Mode deux joueurs
+2. Bouton de réinitialisation
+3. Verrouiller les cases déjà utilisées
+4. Indiquer le nom du joueur actuel
+
 ---
 # Démonstration
 ---
