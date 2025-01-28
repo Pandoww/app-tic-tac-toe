@@ -2,22 +2,37 @@ import Grid from "./components/grille";
 import { useGameStore } from "./store/store";
 
 const App = () => {
-  const { currentPlayer, winner, isDraw, resetGame } = useGameStore();
+  const { resetGame, resetScores, scores, winner, currentPlayer } = useGameStore();
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
-      <h1 className="text-4xl font-bold mb-6">Jeu de Tic-Tac-Toe</h1>
-      {!winner && !isDraw && (
-        <h2 className="text-2xl mb-4">Joueur courant : {currentPlayer}</h2>
-      )}
-      {winner && <h2 className="text-2xl mb-4">🎉 {winner} a gagné ! 🎉</h2>}
-      {isDraw && <h2 className="text-2xl mb-4">Match nul ! 🤝</h2>}
+    <div className="app">
+      <h1>Tic-Tac-Toe</h1>
+
+      {/* Affichage des scores */}
+      <div className="scores">
+        <h2>Score</h2>
+        <p>Joueur X : {scores.X}</p>
+        <p>Joueur O : {scores.O}</p>
+      </div>
+
+      {/* Affichage du joueur courant */}
+      <h2>
+        {winner
+          ? winner === "Draw"
+            ? "Égalité ! 🤝"
+            : `Le joueur ${winner} a gagné ! 🎉`
+          : `Au tour de : ${currentPlayer} !`}
+      </h2>
+
+      {/* Grille du jeu */}
       <Grid />
-      <button id="reset"
-        onClick={resetGame}
-        
-      >
-        Réinitialiser le jeu
+
+      {/* Boutons */}
+      <button id="reset" onClick={resetGame}>
+        Réinitialiser la partie
+      </button>
+      <button id="reset" onClick={resetScores}>
+        Réinitialiser les scores
       </button>
     </div>
   );

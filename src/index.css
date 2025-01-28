@@ -5,7 +5,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 105vh;
   background: linear-gradient(135deg, #f6d365, #de0fe5); /* Dégradé de fond */
   color: #ffffff;
 }
@@ -66,6 +66,7 @@ button:disabled[value="O"] {
 #reset {
   width: 200px;
   margin-top: 20px;
+  margin-left: 5px;
   padding: 15px 30px;
   background: linear-gradient(135deg, #4b79a1, #283e51); /* Dégradé vert-bleu */
   border: none;
@@ -101,4 +102,25 @@ h2 {
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+.scores {
+  margin: 15px 0;
+  padding: 10px;
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+  border-radius: 5px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  font-size: 18px;
+}
+
+.scores h2 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.scores p {
+  margin: 5px 0;
+  font-size: 16px;
 }
