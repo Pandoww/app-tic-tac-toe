@@ -21,8 +21,8 @@
     2. Bouton réinitialiser
     3. Bloquer les cases déja utiliser
     4. Afficher le nom de la personne qui dois jouer.
-
-## Démonstration
-
+---
+# Démonstration
+---
 
 
