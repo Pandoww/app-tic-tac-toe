@@ -1,5 +1,5 @@
 # Présentation du projet
-    - Notre projet vise à développer un **Tic-Tac-Toe** (ou **Morpion**) en utilisant **React** pour l'interface utilisateur et **Zustand** pour la gestion de l'état.
+    Notre projet vise à développer un **Tic-Tac-Toe** (ou **Morpion**) en utilisant **React** pour l'interface utilisateur et **Zustand** pour la gestion de l'état.
     
 # Présentation REACT/ZUSTAND
     1. REACT : React est une bibliothèque JavaScript open-source développée par Facebook, destinée à la création d'interfaces utilisateur dynamiques et performantes. Lancée en 2013, elle s'est imposée comme un pilier du développement web moderne grâce à son architecture modulaire, sa grande flexibilité et une communauté engagée.
