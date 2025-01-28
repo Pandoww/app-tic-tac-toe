@@ -1,4 +1,4 @@
-#Projet de fin de module : Tic-Tac-Toe
+# Projet de fin de module : Tic-Tac-Toe
 ## Présentation du projet
     Notre projet vise à développer un **Tic-Tac-Toe** (ou **Morpion**) en utilisant **React** pour l'interface utilisateur et **Zustand** pour la gestion de l'état.
     
