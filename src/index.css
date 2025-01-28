@@ -1,0 +1,104 @@
+/* Style global pour le corps */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #f6d365, #de0fe5); /* Dégradé de fond */
+  color: #ffffff;
+}
+
+/* Conteneur principal */
+h1, h2 {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* La grille */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 colonnes */
+  gap: 15px; /* Espacement entre les cases */
+  margin-top: 20px;
+  padding: 20px;
+  background: #ffffffcc; /* Fond semi-transparent */
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Effet d'ombre */
+}
+
+/* Style des cellules */
+button {
+  width: 100px;
+  height: 100px;
+  font-size: 32px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  background: #4b79a1; /* Couleur par défaut */
+  background: linear-gradient(135deg, #4b79a1, #283e51);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+/* Couleur au survol */
+button:hover {
+  transform: scale(1.05);
+  background: linear-gradient(135deg, #283e51, #4b79a1); /* Effet inversé */
+}
+
+/* Couleur pour X */
+button:disabled[value="X"] {
+  background: linear-gradient(135deg, #ff512f, #dd2476); /* Dégradé rouge-rose */
+  color: white;
+}
+
+/* Couleur pour O */
+button:disabled[value="O"] {
+  background: linear-gradient(135deg, #24c6dc, #514a9d); /* Dégradé bleu-violet */
+  color: white;
+}
+
+/* Bouton de réinitialisation */
+#reset {
+  width: 200px;
+  margin-top: 20px;
+  padding: 15px 30px;
+  background: linear-gradient(135deg, #4b79a1, #283e51); /* Dégradé vert-bleu */
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+#reset:hover {
+  transform: translateY(-2px);
+  background: linear-gradient(135deg, #48b1bf, #06beb6); /* Effet inversé */
+}
+
+/* Message de victoire ou d'égalité */
+h2 {
+  font-size: 24px;
+  margin-top: 20px;
+  animation: fadeIn 0.5s ease-in-out;
+  text-align: center;
+}
+
+/* Animation d'apparition pour le texte */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
