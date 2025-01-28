@@ -10,11 +10,11 @@ Notre projet vise à développer un **Tic-Tac-Toe** (ou **Morpion**) en utilisan
 ---
 ## Présentation de l'équpe
 
-    1. Fergal NDAMVU NGOMA SUNDA (Chef de projet)
-    2. Enoque PANDA AFONSO 
-    3. Ajeai SRIYOGANATHAN
-    4. Lahna BRAHIMI
-    5. Idriss MZIMBA 
+1. Fergal NDAMVU NGOMA SUNDA (Chef de projet)
+2. Enoque PANDA AFONSO 
+3. Ajeai SRIYOGANATHAN
+4. 4. Lahna BRAHIMI
+5. Idriss MZIMBA 
 ---
 
 ## Liste des features
